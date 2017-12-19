@@ -8,20 +8,3 @@ $(document).ready(function () {
 
 });
 
-$('#btn3').click(function () {
-    var firstNameValue = $('#fn').val();
-    var lastNameValue = $('#ln').val();
-    var fullNameValue = firstNameValue+" "+lastNameValue;
-
-    $('#fullName').val(fullNameValue);
-});
-
-
-$(document).ready(function () {
-    $('#btn4').click(function () {
-       var nameValue = $('#name').value();
-       var emailValue = $('#email').value();
-
-       $(
-    });
-});

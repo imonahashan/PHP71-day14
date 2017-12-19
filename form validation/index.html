@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Form Validation</h1>
+
+<form action="" method="post" id="reg">
+
+    <table>
+
+
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" name="first_name" id="firstName"><span style="color:red"; id="firstNameError"></span></td>
+        </tr>
+
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" name="last_name" id="lastName"><span style="color:red"; id="lastNameError"></span></td>
+        </tr>
+
+        <tr>
+            <th>Email Address</th>
+            <td><input type="email" name="email_address" id="emailAddress"><span style="color:red"; id="emailAddressError"></span></td>
+        </tr>
+
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <span style="color:red"; id="genderError"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th>District Name</th>
+            <td>
+                <select name="district_name" id="districtName">
+                    <option value="">Select District</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Narsingdi">Narsingdi</option>
+                    <option value="Kishoreganj">Kishoreganj</option>
+                    <option value="Sylhet">Sylhet</option>
+                </select>
+                <span id="districtNameError"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Password</th>
+            <td><input type="password" name="pass_word" id="password"></span></td>
+            <td><input type="checkbox" id="checkBox">Show password
+                <span id="passwordError"></span></td>
+        </tr>
+
+        <tr>
+            <th>Confirm Password</th>
+            <td><input type="password" name="confirm_password" id="confirmPassword"><span id="confirmPasswordError"></span></td>
+        </tr>
+
+        <tr>
+            <th></th>
+            <td><input type="submit" id="btn" value="Submit"></td>
+        </tr>
+    </table>
+
+</form>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/my-script.js"></script>
+</body>
+</html>
